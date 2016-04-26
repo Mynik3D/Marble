@@ -1,2 +1,2 @@
-/*Шритфты*/
+/*Шапка*/
 .header{background:#fff;height:70px;line-height:70px}.header__logo-h1,.header__link{color:#0b0807;text-transform:uppercase;font-family:RobotoBoldCondensed}.header__logo-h1:hover,.header__link:hover{text-decoration:none;color:#1abb9c}.header__nav-right{text-align:right}.header__link{margin:0 0 0 21px}@font-face{font-family:RobotoBoldCondensed;src:url(fonts/RobotoBoldCondensedy.ttf)}
