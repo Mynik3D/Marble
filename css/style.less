@@ -7,14 +7,18 @@
 	
 /*Логотип и ссылки из меню*/
 	&__logo-h1,&__link{
-		color: #0b0807;
+		color: #4e4e4e;
 		text-transform: uppercase;
-		font-family: RobotoBoldCondensed;
+		
+		font-weight: bold;
 		/*убираем подчеркивание*/
 		&:hover{
 			text-decoration: none;
 			color: #1abb9c;
 		}
+	}
+	&__logo-h1{
+		font-size: 40px;
 	}
 	/*Меню шапки*/
 	&__nav-right{
@@ -23,12 +27,103 @@
 	/*Ссылки*/
 	&__link{
 		margin: 0 0 0 21px;
+
 	}
 }
+/*Слайдер*/
+.carousel-inner{
+	&__zag{
+	color: #fff;
+	font-weight: bold;
+	font-size: 34px;
+	font-family: RobotoBoldCondensed;
+	}
+	&__zag-opacity{
+		color: #a8a8a8;
+		font-weight: bold;
+		font-family: RobotoBoldCondensed;
+		font-size: 29px;
+	}
+	&__link{
+		text-transform: uppercase;
+		padding: 17px 20px;
+		background: #3f8dbf;
+		border-radius: 2px;
+		font-size: 14px;
+
+	}
+	
+}
+.carousel-caption{
+	line-height: 41px;
+	top: 94px;
+}
+
+.service{
+	margin-top: 60px;
+	&__image{
+		     width: 92px;
+   			 height: 92px;
+             line-height: 92px;
+             text-align: center;
+             margin: 0 0 0 82px;
+	}
+	&__image-center{
+		text-align: center;
+	}
+	&__zag-h3{
+		font-size: 18px;
+		color: #4e4e4e;
+		font-family: "RobotoSlab-Bold";
+		font-weight: bold;
+	}
+	&__zag-p{
+		font-size: 14px;
+		font-weight: normal;
+		color: #616161;
+		font-family: Roboto;
+
+	}
+}
+/*Цвета блоков сервиса*/
+.fiolet{background: #9d9abf;}
+.red{background: #d2514b;}
+.blue{background: #66a3c6;}
+.yellow{background: #e8c04f;}
+/*Цвета блоков сервиса*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Шритфты*/
 @font-face {
     font-family: RobotoBoldCondensed;
-    src: url(fonts/RobotoBoldCondensedy.ttf);
+    src: url(fonts/RobotoBoldCondensed.ttf);
+    font-family: RobotoSlab-Bold;
+    src: url(fonts/RobotoSlab-Bold.ttf);
+
    }
+
+
