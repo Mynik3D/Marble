@@ -143,14 +143,30 @@
 /*Фон подвала*/
 .blackfon{
 	/*background-image: url(images/footer-bg.png);*/
-	 background-repeat: no-repeat;
-  background-position: center;
-   margin: 0 auto;
-  text-align: center;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: 0 auto;
+		text-align: center;
 }
 .footer{
-	padding: 45px 0;
+	&__zag{
+		font-size: 18px;
+		color: #6c6c6c;
+		font-family: "Roboto Condensed";
+		text-transform: uppercase;
+		margin-bottom: 16px;
+	}
+	&__grapha{
+		font-size: 14px;
+		color: #cacaca;
+		font-family: "Roboto";
+		font-weight: normal;
+		line-height: 24px;
 	
+	}
+	&__align-left{
+		text-align: left;
+	}
 }
 
 
@@ -169,9 +185,13 @@
 }
 .over {
   position: absolute;
-  left: 0;
-  top: 0;
-  text-align: center;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   
 }
 
