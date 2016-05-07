@@ -9,7 +9,7 @@
 $(document).scroll(function(){
  $(function() {
      $('.portfolio__overflow img').each(function(n) {
-         $(this).delay(n*100).fadeTo(1500, 1);
+         $(this).delay(n*100).fadeTo(1000, 1);
     })
  })
 });
