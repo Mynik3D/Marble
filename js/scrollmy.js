@@ -1,8 +1,8 @@
-   //   $(window).scroll(function() {
-   //      $('.carousel-inner__zag,.carousel-inner__zag-opacity').each(function(){
-   //        if ($(this).offset().top < $(window).scrollTop()+1000) {
-   //          $(this).addClass('animated fadeInUp');
-   //        }
-   //      });
-   //    });
-   // 
+     $(window).scroll(function() {
+        $('.testimonial__func,.footer__limiter').each(function(){
+          if ($(this).offset().top < $(window).scrollTop()+850) {
+            $(this).addClass('animated fadeInUp');
+          }
+        });
+      });
+   
